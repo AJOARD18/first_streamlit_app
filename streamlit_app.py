@@ -43,6 +43,8 @@ try:
     #streamlit.dataframe(fruityvice_normalized)
 #except URLError as e:
   #streamlit.error()
+  
+  streamlit.stop()
     
     
       
@@ -55,7 +57,6 @@ try:
 #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 #streamlit.dataframe(fruityvice_normalized)
 
-streamlit.stop()
 
 
 #import snowflake.connector
